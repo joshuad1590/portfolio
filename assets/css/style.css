@@ -113,12 +113,11 @@ header nav a:hover {
 /*projects style*/
 .websites {
     flex: 4;
-    background-color: silver;
+    background-color: white;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #projects h2 {
     background-color: silver;
@@ -159,15 +158,20 @@ header nav a:hover {
 #contact {
     padding: 40px 120px;
     margin: auto;
+    display:flex;
+    justify-content: center;
+    background-color: silver;
 }
 #contact h3 {
     background-color: silver;
-    flex-wrap: wrap;
-    text-align: center;
+    font-size: 30px;
+    font-display: right;
+    margin: 74px;
+    padding: 10px;
     border-bottom: 3px solid black;
     font-size: 50px;
 }
-  .contact-form input, .contact-form textarea {
+.contact-form input, .contact-form textarea {
     border: 1px solid black;
     display: block;
     padding: 7px 15px;
@@ -207,11 +211,8 @@ header nav a:hover {
 
   /* Media Query */
 @media screen and (max-width: 980px) {
-    section {
-    padding: 30px 15px;
-    
-}
-header h1 {
+
+    header h1 {
     width: 100%;
     text-align: center;
   }
@@ -236,9 +237,6 @@ header h1 {
   
 }
 @media screen and (max-width: 768px) {
-section {
-    padding: 30px 15px;
-}
 .section-title {
     width: 95%;
   }
