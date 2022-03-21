@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///Users/Josh/Bootcamp/dixons-weather-dashboard/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Dixon&#39;s Weather Dashboard.jpeg_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Dixon&#39;s Weather Dashboard.jpeg_files/style.css">
+    <title>Dixon's Weather Dashboard</title>
+</head>
+<body>
+    <header class="bg-info text-white text-center p-2">
+        <h1>Dixon's Weather Dashboard</h1>
+        <h2>Search Your City To Find The 5-Day Forcast</h2>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-3 p-2 search-column">
+                <form class="border p-2" id="city-search">
+                    <h4>Search for a City</h4>
+                    <input id="city" type="text" autofocus="true" class="form-input">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+                <div class="past-search border" id="old-search-btn"></div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class="row border selected-city" id="today-forecast">
+                    <div class="col-12">
+                        <h2 id="searched-city">winston-salem<span> (Mar 13, 2022) </span><img src="./Dixon&#39;s Weather Dashboard.jpeg_files/01d@2x.png"></h2>
+                        <div id="today-weather-container" class="list-group"><span class="list-group-item">Temperature: 47.66 °F</span><span class="list-group-item">Humidity: 28 %</span><span class="list-group-item">Wind Speed: 11.97 MPH</span><div class="list-group-item">UV Index: <span class="moderate ">5.13</span></div></div>
+                    </div>  
+                </div>
+                <div class="row border" id="five-day-forecast">
+                        <h2 class="col-12" id="forecast">5-Day Forecast:</h2>
+                        <div class="d-flex" id="fiveday-container"><div class="card bg-primary text-light m-2"><h5 class="card-header text-center">Mar 14, 2022</h5><img class="card-body text-center" src="./Dixon&#39;s Weather Dashboard.jpeg_files/04d@2x.png"><span class="card-body text-center">34.21 °F</span><span class="card-body text-center">69  %</span></div><div class="card bg-primary text-light m-2"><h5 class="card-header text-center">Mar 15, 2022</h5><img class="card-body text-center" src="./Dixon&#39;s Weather Dashboard.jpeg_files/01d@2x.png"><span class="card-body text-center">38.23 °F</span><span class="card-body text-center">82  %</span></div><div class="card bg-primary text-light m-2"><h5 class="card-header text-center">Mar 16, 2022</h5><img class="card-body text-center" src="./Dixon&#39;s Weather Dashboard.jpeg_files/04d@2x.png"><span class="card-body text-center">48.34 °F</span><span class="card-body text-center">84  %</span></div><div class="card bg-primary text-light m-2"><h5 class="card-header text-center">Mar 17, 2022</h5><img class="card-body text-center" src="./Dixon&#39;s Weather Dashboard.jpeg_files/10d@2x.png"><span class="card-body text-center">50.47 °F</span><span class="card-body text-center">94  %</span></div><div class="card bg-primary text-light m-2"><h5 class="card-header text-center">Mar 18, 2022</h5><img class="card-body text-center" src="./Dixon&#39;s Weather Dashboard.jpeg_files/03d@2x.png"><span class="card-body text-center">50.25 °F</span><span class="card-body text-center">97  %</span></div></div>
+                </div>  
+            </div>
+        </div>
+    </main>
+    <script src="./Dixon&#39;s Weather Dashboard.jpeg_files/jquery.min.js"></script>
+    <script src="./Dixon&#39;s Weather Dashboard.jpeg_files/bootstrap.min.js"></script>
+    <script src="./Dixon&#39;s Weather Dashboard.jpeg_files/moment.min.js"></script>
+    <script src="./Dixon&#39;s Weather Dashboard.jpeg_files/homepage.js"></script>
+
+</body></html>
